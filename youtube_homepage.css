@@ -1,0 +1,73 @@
+ body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      text-align: center;
+      background-color: rgb(255, 255, 255);
+    }
+
+    input {
+      padding: 10px;
+      width: 300px;
+      margin: 10px 0;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #a92626;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+    }
+
+    button:hover {
+      background-color: #005bb5;
+    }
+
+    .video-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+
+    }
+
+    .video-card {
+      margin: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+      width: 320px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: relative;
+      background-color: #ffffff;
+    }
+
+    .video-card img {
+      width: 100%;
+      cursor: pointer;
+    }
+
+    .video-card iframe {
+      width: 100%;
+      height: 180px;
+      border: none;
+    }
+
+    .video-card div {
+      padding: 10px;
+    }
+.video-container{
+  padding: 10px 10px 10px 10px;
+}
+.download-btn {
+  background-color: rgb(77, 92, 77);
+  padding: 10px;
+  transition: background-color 0.3s ease-out, transform 0.3s ease-out; /* Smooth transition for color and size */
+}
+
+.download-btn:hover {
+  background-color: rgb(48, 60, 48); /* New background color on hover */
+  transform: scale(1.2); /* Increase the size by 20% */
+}
